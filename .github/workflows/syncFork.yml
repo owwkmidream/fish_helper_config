@@ -17,6 +17,6 @@ jobs:
       uses: repo-sync/github-sync@v2
       with:
         source_repo: "https://github.com/azwhikaru/fish_helper_config.git"
-        source_branch: "master"
+        source_branch: "main"
         destination_branch: "syncBranch"
         github_token: ${{ secrets.GITHUB_TOKEN }}
